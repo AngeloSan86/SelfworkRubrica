@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfwork Rubrica</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!- Crea una rubrica contenente una lista di contatti e con le seguenti funzionalita':
+    Mostrare o nascondere la lista dei contatti
+    Popolare la tabella con i contatti presenti nell'array di partenza
+    Aggiungere un nuovo contatto
+    Eliminare un contatto in rubrica
+    Modificare un contatto presente in rubrica ->
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="d-flex justify-content-center mb-4 text-center">Rubrica di Angelo</h1>
+            </div>
+    
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <button id="listaContattiBtn">Mostra i contatti</button>
+            </div>
+
+
+            <div class="col-12 col-md-8">
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="input-group mb-3 ps-5">
+                            <input id="nameInput" type="text" class="form-control" placeholder="Nome" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 ps-5">
+                            <input id="numberInput" type="number" class="form-control" placeholder="Numero" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+
+                    <div class="col-6 d-flex justify-content-center">
+                        <button id="aggiungiContattiBtn">Crea Contatto</button>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <article class="col-12 col-md-8" id="contactsWrapper">
+               
+            </article>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/bfdf504380.js" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>s
